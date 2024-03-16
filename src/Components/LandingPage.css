@@ -1,0 +1,84 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+.navbarheader ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbarheader ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+}
+
+.navbarheader ul li a:hover {
+    color: crimson;
+}
+
+.navbarheader ul li {
+    margin-left: 5px;
+}
+
+/* Banner styles */
+.banners {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    /* Ensures it fills at least the viewport height */
+    width: 100%;
+    /* background-image: url(./images/banner-bg.png); */
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 2rem;
+    background: white;
+}
+
+.seconddiv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.Ps2containt {
+    flex: 1;
+    max-width: 50%;
+    /* Takes half of the container width */
+    padding: 2rem;
+}
+
+.Ps2 {
+    flex: 1;
+    max-width: 50%;
+    /* Takes half of the container width */
+    height: 50rem;
+    /* background-image: url(./images/img-1.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.border {
+    margin-bottom: 20px;
+}
